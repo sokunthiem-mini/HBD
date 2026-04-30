@@ -858,8 +858,8 @@ body {
     position: absolute;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, #FF7882, #FF7882 63%);
-    color: white;
+    background: #ffffff;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -898,14 +898,15 @@ body {
     line-height: 1.5;
     letter-spacing: 5px;
     transform: rotate(-5deg);
-    text-shadow: 0 0 5px white,
-                0 0 10px white;
+    text-shadow: 0 0 5px #333,
+                0 0 10px #333;
+    color: #333;
 }
 .boxMail .boxMail-container .card2{
     position: relative;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, #e0e0e0, #ffffff 30%);
+    background: #ffffff;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transform-origin: left;
@@ -915,15 +916,16 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #FF7882;
+    background-color: #ffffff;
     transition: all 1s;
     overflow: hidden;
     font-family: "Inter", serif;
-    color: #fff;
+    color: #333;
 }
 .boxMail .boxMail-container:hover .card2-content{
     transform: translate(20px, 20px);
     box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.4);
+    background-color: #ffffff;
 }
 .boxMail .boxMail-container .card2 h3{
     font-family: 'Dancing Script', cursive;
@@ -956,6 +958,7 @@ body {
     text-indent: 20px;
     font-size: 22px;
     opacity: 0;
+    color: #333;
 }
 .boxMail .boxMail-container .card2:hover h2{
     animation: texth2 2s forwards;
